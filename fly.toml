@@ -14,8 +14,11 @@ primary_region = "lhr"
   min_machines_running = 0
 
 [env]
-  SKYBRIDGE_BASEURL = "skybridge.fly.dev"
+  SKYBRIDGE_BASEURL = "skybridge-weirup.fly.dev"
+  SKYBRIDGE_AUTH_PASSWORD = "sejwI8-pobmyw-wupjin"
+  SKYBRIDGE_REQUIRE_AUTH_PASSWORD=true
   SKYBRIDGE_SHOW_INDEX = true
+  SKYBRIDGE_SECRET = "xSD8JqdZLM8OO0VQC1WLze/Br8Pr+Gj1JpJiN6f/qJk="
   FLY_SWAP = true
 
 [mounts]
